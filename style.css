@@ -1,0 +1,41 @@
+.cart {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .item {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .quantity {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  
+  .remove {
+    color: red;
+  }
+  
+  .like {
+    color: gray;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  
+  .total {
+    margin-top: 20px;
+  }
+  
